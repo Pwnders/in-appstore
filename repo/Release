@@ -1,0 +1,8 @@
+Origin: In-AppStore Repo 
+Label: In-AppStore Repo
+Suite: stable
+Version: 1.0
+Codename: CrafterPika
+Architecture: iphoneos-arm
+Components: main
+Description: Free iAP

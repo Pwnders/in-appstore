@@ -1,0 +1,80 @@
+Package: anondev.LocalIAPStore
+Version: 1.4-4
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
+Section: Tweaks (iAP)
+Priority: optional
+Description: Pwns In-app purchases on iOS 5.1.1 - 13.x (works with developer servers,in-appstore.com DNS needed). 64bit compatible
+Author: anondev
+Name: LocalIAPStore
+Filename: ./debs/anondev.LocalIAPStore_1.4-4_iphoneos-arm.deb
+Size: 70718
+MD5sum: 0c29b53e847d1f2c72f4f073ad7fa37c
+SHA1: bd570e11e634b7efb613a72603a194ddd30f9feb
+SHA256: bbf4d207d8b89a41808a4716780a07decbe68662aa29a39a521de2c314567526
+Depiction: http://in-appstore.crafterpika.tk/repo/depictions/anondev.LocalIAPStore.html
+
+Package: anondev.LocalIAPStore
+Version: 1.4-3
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
+Section: Tweaks (iAP)
+Priority: optional
+Description: Pwns In-app purchases on iOS 5.1.1 - 13.x (works with developer servers,in-appstore.com DNS needed). 64bit compatible
+Author: anondev
+Name: LocalIAPStore
+Filename: ./debs/anondev.LocalIAPStore_1.4-3_iphoneos-arm.deb
+Size: 71004
+MD5sum: f2f4ee2095fb9d368ac28dee4b216e34
+SHA1: cc1a6875a030c1af7f2c80fc319e6c239bf541e3
+SHA256: 621d07dd9cfbac09a00ffaa806ebbbd0ff18c44d5160cc4df8690021c5d8d5eb
+Depiction: http://in-appstore.crafterpika.tk/repo/depictions/anondev.LocalIAPStore.html
+
+Package: anondev.LocalIAPStore
+Version: 1.4-2
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
+Section: Tweaks (iAP)
+Priority: optional
+Description: Pwns In-app purchases on iOS 5.1.1 - 13.x (works with developer servers,in-appstore.com DNS needed). 64bit compatible
+Author: anondev
+Name: LocalIAPStore
+Filename: ./debs/anondev.LocalIAPStore_1.4-2_iphoneos-arm.deb
+Size: 70966
+MD5sum: 9c36f96326050601079de652c03fa5ac
+SHA1: d6e9b86686a2fb8489a202eb57d540d515a1b4cb
+SHA256: 6c68b1090488a44e7c70679c1c1bec268f893d306f3ec7e9b4f4f48bcf664115
+Depiction: http://in-appstore.crafterpika.tk/repo/depictions/anondev.LocalIAPStore.html
+
+Package: anondev.LocalIAPStore
+Version: 1.4-1
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
+Section: Tweaks (iAP)
+Priority: optional
+Description: Pwns In-app purchases on iOS 5.1.1 - 13.x (works with developer servers,in-appstore.com DNS needed). 64bit compatible
+Author: anondev
+Name: LocalIAPStore
+Filename: ./debs/anondev.LocalIAPStore_1.4-1_iphoneos-arm.deb
+Size: 71170
+MD5sum: adce93b64675706f4a4c4b5204a1e8fe
+SHA1: c9bb6d2749f5d065e9c29a2a39cf233a3a1465d2
+SHA256: 97d20ebc8f9d96da6f4749499be4664d7ab946d469439b7ab04af1e167afaca2
+Depiction: http://in-appstore.crafterpika.tk/repo/depictions/anondev.LocalIAPStore.html
+
+Package: com.laxus.iosgodsiapcracker
+Name: iOSGods iAP Cracker
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Free iAP Purchase for some apps and games, it doesn't always work so don't expect much. Turn on the tweak inside iOS Settings. This tweak is made by @Laxus for iOSGods.com, supported A12 / A13 devices
+Maintainer: Laxus
+Author: Laxus
+Section: Tweaks (iAP)
+Version: 1.0-2+debug
+Installed-Size: 296
+Filename: ./debs/com.laxus.iosgodsiapcracker_1.0-2+debug_iphoneos-arm.deb
+Size: 18412
+MD5sum: f609fdef7758b9f6c5b544781c58ded7
+SHA1: 6c7108cb350d2442aebc099fe3b2feaf939a55d6
+SHA256: 9f4b9857cd7a8286a14b477e5796cc14d7d71224fb8d8987a5a0324c4871aeb7
+Depiction: http://in-appstore.crafterpika.tk/repo/depictions/com.laxus.iosgodsiapcracker.html
