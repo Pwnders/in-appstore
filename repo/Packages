@@ -2,7 +2,7 @@ Package: anondev.LocalIAPStore
 Version: 1.4-4
 Architecture: iphoneos-arm
 Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
-Section: Tweaks (iAP)
+Section: Tweaks
 Priority: optional
 Description: Pwns In-app purchases on iOS 5.1.1 - 13.x (works with developer servers,in-appstore.com DNS needed). 64bit compatible
 Author: anondev
@@ -18,7 +18,7 @@ Package: anondev.LocalIAPStore
 Version: 1.4-3
 Architecture: iphoneos-arm
 Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
-Section: Tweaks (iAP)
+Section: Tweaks
 Priority: optional
 Description: Pwns In-app purchases on iOS 5.1.1 - 13.x (works with developer servers,in-appstore.com DNS needed). 64bit compatible
 Author: anondev
@@ -34,7 +34,7 @@ Package: anondev.LocalIAPStore
 Version: 1.4-2
 Architecture: iphoneos-arm
 Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
-Section: Tweaks (iAP)
+Section: Tweaks
 Priority: optional
 Description: Pwns In-app purchases on iOS 5.1.1 - 13.x (works with developer servers,in-appstore.com DNS needed). 64bit compatible
 Author: anondev
@@ -50,7 +50,7 @@ Package: anondev.LocalIAPStore
 Version: 1.4-1
 Architecture: iphoneos-arm
 Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
-Section: Tweaks (iAP)
+Section: Tweaks
 Priority: optional
 Description: Pwns In-app purchases on iOS 5.1.1 - 13.x (works with developer servers,in-appstore.com DNS needed). 64bit compatible
 Author: anondev
@@ -69,7 +69,7 @@ Architecture: iphoneos-arm
 Description: Free iAP Purchase for some apps and games, it doesn't always work so don't expect much. Turn on the tweak inside iOS Settings. This tweak is made by @Laxus for iOSGods.com, supported A12 / A13 devices
 Maintainer: Laxus
 Author: Laxus
-Section: Tweaks (iAP)
+Section: Tweaks
 Version: 1.0-2+debug
 Installed-Size: 296
 Filename: ./debs/com.laxus.iosgodsiapcracker_1.0-2+debug_iphoneos-arm.deb
