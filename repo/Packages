@@ -78,3 +78,20 @@ MD5sum: f609fdef7758b9f6c5b544781c58ded7
 SHA1: 6c7108cb350d2442aebc099fe3b2feaf939a55d6
 SHA256: 9f4b9857cd7a8286a14b477e5796cc14d7d71224fb8d8987a5a0324c4871aeb7
 Depiction: http://in-appstore.crafterpika.tk/repo/depictions/com.laxus.iosgodsiapcracker.html
+
+Package: com.pxcex.localiapstore13
+Name: LocalIAPStore13
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Free In-App Purchases include app IOS 13 bypass Lock iCloud (bypass verify Passcode, Touch ID or Face ID).  No options to configure!
+Maintainer: pxcex
+Author: pxcex
+Section: Tweaks
+Version: 0.0.2
+Installed-Size: 136
+Filename: ./debs/com.pxcex.localiapstore13_0.0.2_iphoneos-arm.deb
+Size: 2684
+MD5sum: ecfd8c78d1a9f6c841715d7257cde6b3
+SHA1: 755abab6e45b47294f5181b790e36b8a37a87bbf
+SHA256: 5e0cfa0ae83c1517fbcccf0a150a6d794ffdc2696e9e6e6d4659cd96185aa9f3
+Depiction: http://in-appstore.crafterpika.tk/repo/depictions/com.pxcex.localiapstore13.html
