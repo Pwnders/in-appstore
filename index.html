@@ -5,6 +5,7 @@
  <title>In-AppStore</title>
 <link rel="shortcut icon" type="png/favicon" href="./CydiaIcon.png" />
  <link rel="stylesheet" type="text/css" href="assets/depiction.css">
+ <link rel="stylesheet" type="text/css" href="assets/selector.css">
  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
  <meta name="format-detection" content="telephone=yes">
  <!-- <script type="text/javascript" src="/fastclick/lib/fastclick.js"> -->
@@ -37,11 +38,118 @@
 
 </fieldset>
   <label>
-   <p>Android</p>
+   <p>Android (ROOT REQUIRED)</p>
   </label>
   <fieldset>
    <div>
-    <p>Install:<br>***ROOT RQUIRED***<br>- <a href="./android/freedom-1.8.4.apk">Freedom apk</a><br>- <a href="./android/freedom_install.zip">Freedom Install (flash it)</a><br><br>Uninstall:<br>- <a href="./android/freedom_uninstall.zip">Freedom Uninstall (Flash it)</a></p>
+    <p>Freedom-app:<br>
+    <form name="APK">
+		<select name="APKDown" id="APKMenu">
+			<option value="nothing">Select Version</option>
+			<option value="./android/apk/freedom-1.8.4.apk">v1.8.4</option>
+			<option value="./android/apk/freedom-1.8.3d.apk">v1.8.3d</option>
+			<option value="./android/apk/freedom-1.8.3c.apk">v1.8.3c</option>
+			<option value="./android/apk/freedom-1.8.3b.apk">v1.8.3b</option>
+			<option value="./android/apk/freedom-1.8.3a.apk">v1.8.3a</option>
+			<option value="./android/apk/freedom-1.8.2.apk">v1.8.2</option>
+			<option value="./android/apk/freedom-1.8.1.apk">v1.8.1</option>
+			<option value="./android/apk/freedom-1.8.0.apk">v1.8.0</option>
+			<option value="./android/apk/freedom-1.7.9.apk">v1.7.9</option>
+			<option value="./android/apk/freedom-1.7.8h.apk">v1.7.8h</option>
+			<option value="./android/apk/freedom-1.7.8g.apk">v1.7.8g</option>
+			<option value="./android/apk/freedom-1.7.8f.apk">v1.7.8f</option>
+			<option value="./android/apk/freedom-1.7.8e.apk">v1.7.8e</option>
+			<option value="./android/apk/freedom-1.7.8d.apk">v1.7.8d</option>
+			<option value="./android/apk/freedom-1.7.8c.apk">v1.7.8c</option>
+			<option value="./android/apk/freedom-1.7.8b.apk">v1.7.8b</option>
+			<option value="./android/apk/freedom-1.7.8a.apk">v1.7.8a</option>
+			<option value="./android/apk/freedom-1.7.7.apk">v1.7.7</option>
+			<option value="./android/apk/freedom-1.7.6c.apk">v1.7.6c</option>
+			<option value="./android/apk/freedom-1.7.6b.apk">v1.7.6b</option>
+			<option value="./android/apk/freedom-1.7.6a.apk">v1.7.6a</option>
+			<option value="./android/apk/freedom-1.7.5.apk">v1.7.5</option>
+			<option value="./android/apk/freedom-1.7.4.apk">v1.7.4</option>
+			<option value="./android/apk/freedom-1.7.3d.apk">v1.7.3d</option>
+			<option value="./android/apk/freedom-1.7.3c.apk">v1.7.3c</option>
+			<option value="./android/apk/freedom-1.7.3b.apk">v1.7.3b</option>
+			<option value="./android/apk/freedom-1.7.3a.apk">v1.7.3a</option>
+			<option value="./android/apk/freedom-1.7.2.apk">v1.7.2</option>
+			<option value="./android/apk/freedom-1.7.1c.apk">v1.7.1c</option>
+			<option value="./android/apk/freedom-1.7.1b.apk">v1.7.1b</option>
+			<option value="./android/apk/freedom-1.7.1a.apk">v1.7.1a</option>
+			<option value="./android/apk/freedom-1.7.0.apk">v1.7.0</option>
+			<option value="./android/apk/freedom-1.6.9l.apk">v1.6.9l</option>
+			<option value="./android/apk/freedom-1.6.9j.apk">v1.6.9j</option>
+			<option value="./android/apk/freedom-1.6.9i.apk">v1.6.9i</option>
+			<option value="./android/apk/freedom-1.6.9h.apk">v1.6.9h</option>
+			<option value="./android/apk/freedom-1.6.9g.apk">v1.6.9g</option>
+			<option value="./android/apk/freedom-1.6.9f.apk">v1.6.9f</option>
+			<option value="./android/apk/freedom-1.6.9e.apk">v1.6.9e</option>
+			<option value="./android/apk/freedom-1.6.9d.apk">v1.6.9d</option>
+			<option value="./android/apk/freedom-1.6.9c.apk">v1.6.9c</option>
+			<option value="./android/apk/freedom-1.6.9a.apk">v1.6.9a</option>
+			<option value="./android/apk/freedom-1.6.8.apk">v1.6.8</option>
+			<option value="./android/apk/freedom-1.6.7.apk">v1.6.7</option>
+			<option value="./android/apk/freedom-1.6.6.apk">v1.6.6</option>
+			<option value="./android/apk/freedom-1.6.5.apk">v1.6.4</option>
+			<option value="./android/apk/freedom-1.6.4.apk">v1.6.4</option>
+			<option value="./android/apk/freedom-1.6.3.apk">v1.6.3</option>
+			<option value="./android/apk/freedom-1.6.2.apk">v1.6.2</option>
+			<option value="./android/apk/freedom-1.6.1.apk">v1.6.1</option>
+			<option value="./android/apk/freedom-1.6.0.apk">v1.6.0</option>
+			<option value="./android/apk/freedom-1.5.9.apk">v1.5.9</option>
+			<option value="./android/apk/freedom-1.5.8.apk">v1.5.8</option>
+			<option value="./android/apk/freedom-1.5.7.apk">v1.5.7</option>
+			<option value="./android/apk/freedom-1.5.6.apk">v1.5.6</option>
+			<option value="./android/apk/freedom-1.5.5.apk">v1.5.5</option>
+			<option value="./android/apk/freedom-1.5.4.apk">v1.5.4</option>
+			<option value="./android/apk/freedom-1.5.3.apk">v1.5.3</option>
+			<option value="./android/apk/freedom-1.5.2.apk">v1.5.2</option>
+			<option value="./android/apk/freedom-1.5.1.apk">v1.5.1</option>
+			<option value="./android/apk/freedom-1.5.0.apk">v1.5.0</option>
+			<option value="./android/apk/freedom-1.4.9.apk">v1.4.9</option>
+			<option value="./android/apk/freedom-1.4.8.apk">v1.4.8</option>
+			<option value="./android/apk/freedom-1.4.7.apk">v1.4.7</option>
+			<option value="./android/apk/freedom-1.4.6.apk">v1.4.6</option>
+			<option value="./android/apk/freedom-1.4.5.apk">v1.4.5</option>
+			<option value="./android/apk/freedom-1.4.4.apk">v1.4.4</option>
+			<option value="./android/apk/freedom-1.4.3.apk">v1.4.3</option>
+			<option value="./android/apk/freedom-1.4.2.apk">v1.4.2</option>
+			<option value="./android/apk/freedom-1.4.1.apk">v1.4.1</option>
+			<option value="./android/apk/freedom-1.4.0.apk">v1.4.0</option>
+			<option value="./android/apk/freedom-1.3.9.apk">v1.3.9</option>
+			<option value="./android/apk/freedom-1.3.8.apk">v1.3.8</option>
+			<option value="./android/apk/freedom-1.3.7.apk">v1.3.7</option>
+			<option value="./android/apk/freedom-1.3.6.apk">v1.3.6</option>
+			<option value="./android/apk/freedom-1.3.5.apk">v1.3.5</option>
+			<option value="./android/apk/freedom-1.3.4.apk">v1.3.4</option>
+			<option value="./android/apk/freedom-1.3.3.apk">v1.3.3</option>
+			<option value="./android/apk/freedom-1.3.2.apk">v1.3.2</option>
+			<option value="./android/apk/freedom-1.3.1.apk">v1.3.1</option>
+			<option value="./android/apk/freedom-1.3.0.apk">v1.3.0</option>
+			<option value="./android/apk/freedom-1.2.9.apk">v1.2.9</option>
+			<option value="./android/apk/freedom-1.2.8.apk">v1.2.8</option>
+			<option value="./android/apk/freedom-1.2.7.apk">v1.2.7</option>
+			<option value="./android/apk/freedom-1.2.6.apk">v1.2.6</option>
+			<option value="./android/apk/freedom-1.2.5.apk">v1.2.5</option>
+			<option value="./android/apk/freedom-1.2.4.apk">v1.2.4</option>
+			<option value="./android/apk/freedom-1.2.3.apk">v1.2.3</option>
+			<option value="./android/apk/freedom-1.2.2.apk">v1.2.2</option>
+			<option value="./android/apk/freedom-1.2.1.apk">v1.2.1</option>
+			<option value="./android/apk/freedom-1.2.0.apk">v1.2.0</option>
+			<option value="./android/apk/freedom-1.1.1.apk">v1.1.1</option>
+			<option value="./android/apk/freedom-1.1.0.apk">v1.1.0</option>
+			<option value="./android/apk/freedom-1.0.9.apk">v1.0.9</option>
+		</select>
+	</form>
+	<script type="text/javascript" src="./assets/selector.js"></script>
+	<hr>
+	Freedom Installer/Uinstaller:<br>
+	(Flash it)
+	<hr>
+	- <a href="./android/freedom_install.zip">Freedom Installer</a><br>
+	- <a href="./android/freedom_uninstall.zip">Freedom Uninstaller</a>
+</p>
 </fieldset>
 
   <label>
